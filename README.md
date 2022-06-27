@@ -35,3 +35,15 @@ Used random user-agent with `scrapy-user-agents` to workaround website robots pr
 * last_updated - ISO format datetime
 * price
 * old_price - optional (price before discount)
+
+### Docker integration
+
+try out:
+
+```shell
+# build xkom-scrapy image
+docker build -t xkom-scrapy .
+ 
+ # run xkom-scrapy container and run base spider inside
+docker run --rm xkom-scrapy sh -c "scrapy crawl base"
+```
