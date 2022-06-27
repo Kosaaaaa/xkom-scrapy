@@ -1,6 +1,6 @@
 # x-kom scrapy
 
-## Scrap product data from [x-kom.pl](https://www.x-kom.pl/)
+## Scrap product data from [x-kom.pl](https://www.x-kom.pl/) only for education purpose.
 
 Used random user-agent with `scrapy-user-agents` to workaround website robots protection.
 
