@@ -36,7 +36,7 @@ Used random user-agent with `scrapy-user-agents` to workaround website robots pr
 * price
 * old_price - optional (price before discount)
 
-### Docker integration
+### ~~Docker integration~~ - Warning - playwright is not currently working at Docker image
 
 try out:
 
