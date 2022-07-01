@@ -1,4 +1,3 @@
-# This package will contain the spiders of your Scrapy project
-#
-# Please refer to the documentation for information on how to create and manage
-# your spiders.
+from scrapper.spiders.base_spider import BaseSpider
+
+__all__ = ['BaseSpider']
